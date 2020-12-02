@@ -1,8 +1,11 @@
 import box9 from '../../images/candy-box9.jpg'
 import themed from '../../images/candy-themed.jpg'
-import choco from '../../images/choco-box.jpg' 
+import choco from '../../images/choco-box.jpg'
+import egg from '../../images/choco-egg.jpg'
+import pumba from '../../images/choco-pumba.jpg'
+import skulls from  '../../images/choco-skull.jpg' 
 
-export const productData = [
+export const productFavor = [
     {
         img: box9,
         alt: 'Nine Square',
@@ -24,6 +27,33 @@ export const productData = [
         alt: 'Choco Gift Box',
         desc: 'Assorted chocolates inside chocolate gift box',
         price: '$85.00',
+        button: 'Add to cart'
+
+    }
+]
+
+export const productArt = [
+    {
+        img: egg,
+        alt: 'Chocolate Egg',
+        desc: 'Chocolate Egg Art Piece With Flowers',
+        price: '$200.00',
+        button: 'Add to cart'
+
+    },
+    {
+        img: pumba,
+        alt: 'Pumba Sculpture',
+        desc: 'Life like Pumba Sculpture with intricate details ',
+        price: '$100.00',
+        button: 'Add to cart'
+
+    },
+    {
+        img: skulls,
+        alt: 'Chocolate skulls',
+        desc: 'Chocolate skulls with a detailed brain',
+        price: '$45.00',
         button: 'Add to cart'
 
     }
